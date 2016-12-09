@@ -2,20 +2,39 @@ body {
   padding: 0;
   margin: 0;
   color: #333;
-  font-family: arial;
+  font-family: 'Nunito Sans', sans-serif;
 }
 main {
   margin: 60px 20%;
   background-color: #EEE;
-
+  padding-top: 70px;
+  border-radius: 7px;
 }
-
+main>h1 {
+  font-weight: normal;
+  font-size: 4em;
+  text-align: center;
+  margin: 0 0;
+  padding: 0 0;
+  line-height: 1em;
+}
+main>h1>em {
+  font-weight: normal;
+  font-size: 0.5em;
+  text-align: center;
+  margin: 0 0;
+  padding: 0 0;
+}
 figure {
   background-color: white;
   margin: 0 auto;
+  padding: 3px 3px;
   width: 90%;
+  text-align: center;
+  border: 1px solid #DDD;
+  border-radius: 5px;
 }
-figure>img {
-  width: 99%;
-  margin: 4px 4px;
+figure>figcaption {
+  line-height: 2.5em;
+  font-size: 0.9em;
 }
