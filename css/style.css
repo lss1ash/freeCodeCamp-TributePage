@@ -18,6 +18,20 @@ main>h1 {
   padding: 0 0;
   line-height: 1em;
 }
+main>section {
+  width: 65%;
+  margin: auto;
+  font-size: 14px;
+}
+main>section h2 {
+  font-size: 26px;
+  font-weight: normal;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+main>section ul {
+  margin: 0px auto;
+}
 main>h1>em {
   font-weight: normal;
   font-size: 0.5em;
@@ -36,5 +50,5 @@ figure {
 }
 figure>figcaption {
   line-height: 2.5em;
-  font-size: 0.9em;
+  font-size: 14px;
 }
