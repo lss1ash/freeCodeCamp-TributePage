@@ -13,10 +13,17 @@ a:focus, a:hover {
   text-decoration: underline;
 }
 main {
-  margin: 60px 20%;
+  margin: 50px 20%;
   background-color: #EEE;
   padding-top: 70px;
   border-radius: 7px;
+}
+footer {
+  margin: 0px 20%;
+  padding: 0px;
+  border-top: 1px solid #EEE;
+  text-align: center;
+  font-size: 14px;
 }
 main>h1 {
   font-weight: normal;
